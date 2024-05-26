@@ -1,0 +1,109 @@
+.logo-profile {
+  margin-top: 70px;
+  width: 260px;
+  height: 260px;
+  border-radius: 50%;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 35px;
+}
+
+.hero h1 {
+  text-align: center;
+  width: 85%;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.hero h1 span {
+  background: linear-gradient(267deg, rgb(106, 106, 241), rgb(130, 150, 249));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero p {
+  width: 55%;
+  text-align: center;
+  font-size: 24px;
+  line-height: 40px;
+}
+
+.hero-action {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+
+.hero-connect {
+  background: linear-gradient(267deg, rgb(138, 138, 237), blue);
+  padding: 12px 22px;
+  cursor: pointer;
+  border-radius: 50px;
+}
+
+.hero-resume {
+  border-radius: 50px;
+  border: 2px solid aliceblue;
+  padding: 12px 35px;
+  cursor: pointer;
+}
+
+.hero-connect:hover {
+  border: 2px solid aliceblue;
+}
+
+.hero-resume:hover {
+  border-color: blueviolet;
+}
+
+@media screen and (max-width: 768px) {
+  .hero img {
+    width: 260px;
+  }
+  .hero h1 {
+    width: 90%;
+    font-size: 44px;
+  }
+  .hero p {
+    width: 70%;
+    font-size: 18px;
+    line-height: 32px;
+  }
+  .hero-action {
+    gap: 16px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 491px) {
+  .hero img {
+    margin-top: 0px;
+    width: 240px;
+    height: 240px;
+  }
+  .hero h1 {
+    width: 90%;
+    font-size: 34px;
+  }
+  .hero p {
+    width: 70%;
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .hero-action {
+    gap: 16px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 50px;
+  }
+}
