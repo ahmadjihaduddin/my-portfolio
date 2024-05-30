@@ -93,7 +93,7 @@
   }
 }
 
-@media screen and (max-width: 491px) {
+@media screen and (max-width: 591px) {
   .services {
     align-items: start;
     gap: 60px;
